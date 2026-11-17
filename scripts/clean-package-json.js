@@ -89,8 +89,8 @@ packageJson = {
   main: cjsPrefix + '/index.js', // 旧版本 CommonJs 入口
   types: dtsPrefix + '/index.d.ts', // 旧版本类型入口
   author: {
-    name: 'MrMudBean',
-    email: 'Mr.MudBean@outlook.com',
+    name: '泥豆君',
+    email: 'MudBean@outlook.com',
     url: 'https://mudbean.cn',
   },
   description: '简单的浏览器方法',
@@ -110,16 +110,16 @@ packageJson = {
     },
     ...exportsList,
   },
-  keywords: ['browser', 'vvi', 'mudbean'],
+  keywords: ['browser', 'vvi'],
   homepage: 'https://npms.gleanings.cn/browser',
   dependencies: dependencies,
   bugs: {
-    url: 'https://github.com/gleanings/browser/issues',
-    email: 'Mr.MudBean@outlook.com',
+    url: 'https://github.com/hippopotomonstrosesquipedaliophobe/browser/issues',
+    email: 'MudBean@outlook.com',
   },
   repository: {
     type: 'git',
-    url: 'git+https://github.com/gleanings/browser.git',
+    url: 'git+https://github.com/hippopotomonstrosesquipedaliophobe/browser.git',
   },
   publishConfig: {
     access: 'public',
